@@ -1,0 +1,60 @@
+header, h2 {
+    text-align: center;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: small-caps;
+    font-weight: 100;
+}
+.main {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.square {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    margin:20px;
+    padding: 40px;
+    width: 500px;
+    height: 450px;
+    background-color: bisque;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+h3 {
+    padding: 10px;
+    color:dimgrey
+}
+.pic {
+    margin: 10px;
+    height: 350px;
+    border-style: solid;
+}
+
+body {
+    background-image: radial-gradient(#bbf0ee 20%, transparent 20%),
+        radial-gradient(#fafafa 20%, transparent 20%);
+    background-color: white;
+    background-position: 0 0, 50px 50px;
+    background-size: 100px 100px;
+  }
+
+  form {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin:auto;
+  }
